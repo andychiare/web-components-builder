@@ -1,0 +1,23 @@
+{
+  "name": "web-components-builder",
+  "version": "1.0.0",
+  "description": "A basic building environment for Web Components based on Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": " node node_modules/.bin/webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "Andrea Chiarelli (https://www.andreachiarelli.it)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "copy-webpack-plugin": "^5.0.4"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.3.0"
+  }
+}
