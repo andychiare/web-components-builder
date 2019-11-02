@@ -1,6 +1,7 @@
 # Web Components Builder
 
 A basic building environment for Web Components based on Webpack.
+It contains a sample Web Component that is meant for having an example of how to use the project.
 
 ## Installation and initialization
 
