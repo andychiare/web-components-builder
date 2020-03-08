@@ -20,6 +20,6 @@ It contains a sample Web Component as an example of how to use the project.
 
 ## Build for production
 
-- Run `nom run build`
+- Run `npm run build`
 - Check `dist`  folder
 
